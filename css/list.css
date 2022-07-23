@@ -1,0 +1,94 @@
+.nav {
+     overflow: hidden;   /* 盒子行高多2像素，清除溢出部分 */
+}
+/* 列表页专用样式文件 */
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81623;
+    padding: 3px 0 0 10px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+    padding: 0 20px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 49px;
+    color: #000;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_bd ul li {
+    float: left;
+    width: 290px;   
+    height: 385px;
+    border: 1px solid transparent;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 13px;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #c81623;
+}
+.money {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #c81623;
+}
+.money span {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+.prog {
+    margin-top: 10px;
+    line-height: 15px;
+}
+.prog h3 {
+    float: left;
+    margin: 0px 20px 0 30px;
+}
+.prog .jd {
+    float: left;
+    width: 160px;
+    height: 15px;
+    border: 1px solid #c81623;
+    border-radius: 7px;
+}
+.prog .jd .jd_t {
+    width: 80%;
+    height: 100%;
+    background-color: #c81623;
+    border-radius: 7px 0 0 7px;
+}
+.sk_bd ul li button {
+    display: block;
+    width: 290px;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 24px;
+    background-color: #c81623;
+    margin-top: 10px;
+}
